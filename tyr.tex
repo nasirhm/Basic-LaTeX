@@ -1,0 +1,99 @@
+\documentclass[12pt]{article}
+ 
+\usepackage{titleps}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{lipsum} % for dummy text
+\usepackage[table]{xcolor}
+\usepackage{hyperref}
+\usepackage{pgf}
+\usepackage{pgfpages}
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{2pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\graphicspath{ {./images/} }
+
+\pagestyle{myheadings}
+\pagestyle{fancy}
+\fancyhf{}
+
+\setlength{\headheight}{30pt}
+
+\renewcommand{\headrulewidth}{4pt}
+\renewcommand{\footrulewidth}{2pt}
+
+\definecolor{myYellow}{RGB}{255, 255, 0}
+\definecolor{lightYellow}{RGB}{255, 255, 45}
+\definecolor{myRed}{RGB}{245,50,0}
+\definecolor{myURL}{cmyk}{100,38,100,24}
+
+
+\fancyhead[L]{Google Code In Task}
+\fancyhead[C]{By Nasir Hussain}
+\fancyhead[R]{Username : nasirhm}
+
+\pgfpagesuselayout{boxed}
+\begin{document}
+
+\section{Introduction}
+
+\subsection{Intro}
+Hola Amigos, I am \textbf{Nasir Hussain} and I am an Aspiring and Inspiring Life long learner, \& a Developer helping to solve the Problems faced by the generation by using the L
+latest Cutting Edge Technologies. I Hope you would love reading the Further Paragraphs.
+
+\subsection{Story}
+7 Years From Now, I've started my journey at the age of 7 with some basic computer knowledge and then got into an Institute to learn more about Software Development, It lead me to some basics of Designing (Photoshop and Flash) \& A little bit of Development on \textbf{VB 6.0}, It was really easy to learn and then I moved on to another well recognized Institute to pursue a Diploma, Me \& My family faced alot of issues regarding my Age, but at the end Everything went on very well and After \emph{2} Semesters there, I got involved into local Development Communities and was honestly Shocked to know that what I've previously learnt keeps evolving and is rapidly changing and then I landed into a BlockChain Organization as a \textbf{BlockChain Developer} and \textbf{BlockChain Teacher},\textit{It was one of the best Professional Learning Experiences} and after I left, I got more involved into Personal Growth and it led me to alot of amazing goals and achievements \& Now I'm in Google Code In writing this ;).
+
+\subsection{Work Experience}
+
+\begin{tabular}{|lcr||}
+\textbf{Organization} & \textbf{Designation} & \textbf{Tenure} \\
+\hline
+\rowcolor{myYellow}
+\textbf{TeensWhoCode} & Founder & Dec 2019 - Serving \\
+\rowcolor{lightYellow}
+\textbf{Mentors Without Borders} & Mentor & Nov 2019 - Serving\\
+\rowcolor{myRed}
+Trustworks & Community Lead & Apr 2018 - May 2019 \\
+\rowcolor{myRed}
+SecureNodes & Founder & Apr 2018 - Feb 2019 \\
+\end{tabular}
+
+\subsection{Excited \& Learning}
+\begin{itemize}
+  \item Machine Learning \& Data Science
+  \item Social Innovation
+\end{itemize}
+
+\section{LaTeX Experience}
+\subsection{It's the First, Amazing \& Playful}
+Well Honestly speaking, It's my first time working on LaTeX and being playful. I just got to know about it in a previous task on \textit{Manim} to write a basic equation, I didn't knew this much could be done on it. In the previous task i just copy pasted most of it from Internet. Now it's Amazing to Write on TeX Maker.
+\\*
+\newline
+\textbf{I Feel Like I can Write a Book on It ;)}
+\\*
+\newline
+\textbf{Thank You Niharika Shrivastava \& A.Baloochi for such Amazing, Playful \& Insightful Task, Looking forward for more. =) )}
+
+\section{Thank You \& Contact}
+\includegraphics[width=15 cm, height=7cm]{thanks}
+\subsection{Contact}
+\textcolor{myURL}{\href{https://www.linkedin.com/in/nasirhm/}{\textbf{Linkedin Link}}.}
+\end{document}
